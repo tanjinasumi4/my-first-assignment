@@ -26,14 +26,14 @@ section{
 }
 .half-width{
     width: 50%;
-    padding-left: 5%;
+    padding-left: 2%;
 }
 .half-width img{
     width: 100%;
 }
 .half img{
     width: 100%;
-    padding-left: 10%;
+    padding-left: 25%;
 }
 .link-button{
     text-decoration: none;
@@ -48,6 +48,48 @@ section{
     border-radius: 100px;
 }
 .about{
-    background-image: url('folder 2/Frame\ 58.jpg');
+    background-image: url('folder 2/background.jpg');
     background-position: left;
+}
+.about .link-button{
+    margin-left: 50%;
+}
+#recipe{
+    font-size: 60px ;
+    color:gray;
+    font-weight: 500;
+    padding-left: 40%;
+}
+.bio{
+    color: black;
+    padding-left: 25%;
+    margin-bottom: 100px;
+}
+.flexible{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+.half-width{
+    width: 50%;
+    padding: 5%;
+}
+.half-width img{
+    width: 100%;
+}
+.food-pic{
+    margin-right: 2%;
+    margin-left: 2%;
+    box-shadow: 10px 10px 40px gray;
+    padding: 20px 20px;
+    border-radius: 30px;
+}
+.design{
+    font-size: 30px ;
+    color:black;
+    font-weight: bold;
+}
+.design-1{
+    color: black;
 }

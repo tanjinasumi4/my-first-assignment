@@ -10,11 +10,19 @@ h1{
 p{
     color: gray;
 }
+.other{
+    color:black;
+    padding-left: 50%;
+}
+.me{
+    padding-left: 50%;
+}
 .color{
     color: orange;
 }
 section{
     display: flex;
+    margin-bottom: 100px;
 }
 .half-width{
     width: 50%;
@@ -22,6 +30,10 @@ section{
 }
 .half-width img{
     width: 100%;
+}
+.half img{
+    width: 100%;
+    padding-left: 10%;
 }
 .link-button{
     text-decoration: none;
@@ -34,4 +46,8 @@ section{
     padding-left: 50px;
     color: white;
     border-radius: 100px;
+}
+.about{
+    background-image: url('folder 2/Frame\ 58.jpg');
+    background-position: left;
 }
